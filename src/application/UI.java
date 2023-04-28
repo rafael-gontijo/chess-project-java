@@ -12,7 +12,8 @@ public class UI {
 				printPeice(pieces[i][j]);
 			}
 			System.out.println();
-		}System.out.println("  a b c d e f g h");
+		}
+		System.out.println("  a b c d e f g h");
 	}
 
 	private static void printPeice(ChessPiece piece) {
@@ -20,6 +21,7 @@ public class UI {
 			System.out.print("-");
 		} else {
 			System.out.print(piece);
-		} System.out.print(" ");
+		}
+		System.out.print(" ");
 	}
 }
