@@ -42,6 +42,7 @@ public class ChessMatch {
 	public boolean getCheckMate() {
 		return checkMate;
 	}
+
 	public ChessPiece[][] getPieces() {
 		ChessPiece[][] mat = new ChessPiece[board.getRows()][board.getColumns()];
 		for (int i = 0; i < board.getRows(); i++) {
@@ -205,7 +206,5 @@ public class ChessMatch {
 		placeNewPiece('a', 8, new King(board, Color.BLACK));
 
 	}
-
-
 
 }
